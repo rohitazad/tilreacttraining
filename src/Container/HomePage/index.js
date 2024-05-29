@@ -11,7 +11,7 @@ const HomePage = () => {
       url: 'https://jsonplaceholder.typicode.com/posts',
     });
     console.log(postAPIData);
-    //setPostData(postAPIData);
+    setPostData(postAPIData);
   };
   const countValueChangeHandler = () => {
     setCount(count + 1);
