@@ -17,7 +17,7 @@ const HomePage = () => {
     setCount(count + 1);
   };
   const callAPIData = () => {
-    // getData();
+    getData();
   };
   useEffect(() => {
     console.log('count value change useEffect ', count);
