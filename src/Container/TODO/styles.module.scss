@@ -1,0 +1,120 @@
+.mainTodoAPp{
+    width: 1024px;
+    margin:20px auto;
+    h1 {
+        font-size: 24px;
+        color: #333;
+      }
+      
+      input[type="text"] {
+        padding: 10px;
+        font-size: 16px;
+        border: 1px solid #ddd;
+        border-radius: 4px;
+        width: calc(100% - 120px);
+        margin-right: 10px;
+      }
+      
+      button {
+        padding: 10px 15px;
+        font-size: 16px;
+        border: none;
+        border-radius: 4px;
+        cursor: pointer;
+        transition: background 0.3s ease;
+      
+        &:hover {
+          opacity: 0.8;
+        }
+      
+        &:focus {
+          outline: none;
+        }
+      }
+      
+      .addButton {
+        background-color: #28a745;
+        color: white;
+        white-space: nowrap;
+      }
+      
+      .filterButtons {
+        margin-top: 10px;
+        text-align: right;
+      
+        button {
+          margin: 5px 5px 0 0;
+          background-color: #007bff;
+          color: white;
+      
+          &.active {
+            background-color: #0056b3;
+          }
+        }
+      }
+      
+      .taskList {
+        list-style-type: none;
+        padding: 0;
+        margin-top: 20px;
+      }
+      
+      .taskItem {
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+        background: #fff;
+        border: 1px solid #ddd;
+        border-radius: 4px;
+        padding: 10px;
+        margin-bottom: 10px;
+        box-shadow: 0 1px 3px rgba(0, 0, 0, 0.1);
+      
+        em {
+          font-size: 12px;
+          color: #666;
+        }
+      
+        .editInput {
+          flex: 1;
+          margin-right: 10px;
+        }
+      
+        button {
+          margin-left: 5px;
+        }
+      
+        .removeButton {
+          background-color: #dc3545;
+          color: white;
+        }
+      
+        .editButton,
+        .saveButton,
+        .statusButton {
+          background-color: #ffc107;
+          color: white;
+        }
+      
+        .saveButton {
+          background-color: #28a745;
+        }
+      
+        .statusButton.inProgress {
+          background-color: #17a2b8;
+        }
+      
+        .statusButton.completed {
+          background-color: #6c757d;
+        }
+      
+        .statusButton.pending {
+          background-color: #007bff;
+        }
+      }
+      .formSec{
+        display: flex;
+        align-items: center;
+        justify-content: center;
+      }
+}

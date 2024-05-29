@@ -1,0 +1,16 @@
+.footer{
+    background-color: #091A4F;
+    margin-top:100px;
+}
+.section{
+    padding:20px 0;
+    color:#ffffff;
+    display: flex;
+    flex-direction: column;
+    row-gap: 20px;
+    width: 1024px;
+    margin: 0 auto;
+    h3{
+        font-weight: 500;
+    }
+}
